@@ -1,0 +1,7 @@
+status:       PUBLISHED
+technologies: [Android, Android Things]
+categories:   [Android Things]
+languages:    [Kotlin]
+solutions:    [IoT]
+github:       androidthings/sample-pio-overview
+license:      apache2
