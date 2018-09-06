@@ -1,4 +1,4 @@
-# Simple Peripheral I/O (Kotlin)
+# Sample Peripheral I/O app (Kotlin)
 
 This Android Things app uses the Android Things GPIO APIs in a multi-threaded
 environment.
@@ -21,11 +21,6 @@ purpose to showcase how to use the Peripheral APIs. In real world applications,
 you should use or develop a suitable driver that encapsulates the manipulation
 of low level APIs.
 
-
-### Button
-
-![Button sample demo][demo2.gif]
-
 ## Pre-requisites
 
 - Android Things compatible board
@@ -34,8 +29,9 @@ of low level APIs.
 For the Button sample:
 - [Rainbow Hat for Android Things](https://shop.pimoroni.com/products/rainbow-hat-for-android-things) or the following individual components:
     - 1 push button
-    - 1 resistor
-    - 2 jumper wires
+    - 1 led
+    - 2 resistors
+    - 6 jumper wires
     - 1 breadboard
 
 ## Build and install
@@ -52,7 +48,7 @@ adb shell am start com.example.androidthings.overview.MainActivity
 
 If you have the Raspberry Pi [Rainbow Hat for Android Things](https://shop.pimoroni.com/products/rainbow-hat-for-android-things), just plug it onto your Raspberry Pi 3.
 
-![Schematics for Raspberry Pi 3](rpi3_schematics_button.png)
+![Schematics for Raspberry Pi 3](rpi3_schematics.png)
 
 ## Enable auto-launch behavior
 
