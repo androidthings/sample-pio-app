@@ -3,5 +3,5 @@ technologies: [Android, Android Things]
 categories:   [Android Things]
 languages:    [Kotlin]
 solutions:    [IoT]
-github:       androidthings/sample-pio-overview
+github:       androidthings/sample-pio-app
 license:      apache2
