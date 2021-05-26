@@ -3,6 +3,10 @@
 This Android Things app uses the Android Things GPIO APIs in a multi-threaded
 environment.
 
+> **Note:** The Android Things Console will be turned down for non-commercial
+> use on January 5, 2022. For more details, see the
+> [FAQ page](https://developer.android.com/things/faq).
+
 ## Introduction
 
 Building off the [Simple PIO sample](https://github.com/androidthings/sample-simplepio/),
